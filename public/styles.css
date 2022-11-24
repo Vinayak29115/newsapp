@@ -2,7 +2,7 @@
     border:2px solid black;
 }
 .header-nav{
-    background-color: #C84B31;
+    background-color: black;
 }
 .content-image{
     height:380px;
@@ -28,4 +28,8 @@
     text-align: center;
     position: relative;
     top: 25%;
+}
+body{
+    background-color: black;
+    color:whitesmoke;
 }
