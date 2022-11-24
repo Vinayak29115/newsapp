@@ -19,12 +19,12 @@
                       Categories
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#">Business</a>
-                      <a class="dropdown-item" href="#">Entertainment</a>
-                      <a class="dropdown-item" href="#">Health</a>
-                      <a class="dropdown-item" href="#">Science</a>
-                      <a class="dropdown-item" href="#">Sports</a>
-                      <a class="dropdown-item" href="#">Technology</a>  
+                      <a class="dropdown-item" href="/business">Business</a>
+                      <a class="dropdown-item" href="/entertainment">Entertainment</a>
+                      <a class="dropdown-item" href="/">Health</a>
+                      <a class="dropdown-item" href="/science">Science</a>
+                      <a class="dropdown-item" href="/sports">Sports</a>
+                      <a class="dropdown-item" href="/technology">Technology</a>  
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
     </header>
     <main>
         <div class="row mt-4">
-        <% items.forEach( item=>{ %>
+        <% items.forEach(function(item){ %>
             
             <div class="col-lg-3 col-sm-12 mb-2 box">
                 <img class="card-img-top content-image" src="<%=item.urlToImage%>" alt="photo" style="height:380px;">
